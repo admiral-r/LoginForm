@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: Shabnam1;
+    src: url(src/assets/font/Shabnam1.ttf);
+}
+
+@font-face {
+    font-family: Shabnam2;
+    src: url(src/assets/font/Shabnam2.ttf);
+}
+
+@font-face {
+    font-family: Shabnam3;
+    src: url(src/assets/font/Shabnam3.ttf);
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}

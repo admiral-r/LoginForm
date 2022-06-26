@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'LoginForm';
+  hide: boolean = true;
+  showDetails: boolean = false;
 }

@@ -1,0 +1,156 @@
+@media only screen and (max-width: 900px) {
+    .content {
+        margin-top: 10px!important;
+        flex-direction: column!important;
+        margin-left: 0!important;
+    }
+    .input:focus {
+        box-shadow: none!important;
+    }
+    .forms {
+        margin-left: auto!important;
+        margin-right: auto!important;
+        margin-top: 1px!important;
+        animation-name: none!important;
+    }
+    .illustrations {
+        width: 260px!important;
+        margin-left: auto!important;
+        margin-right: auto!important;
+    }
+    .illustrations:hover {
+        transform: translate(0, 6%)!important;
+    }
+}
+
+@keyframes illustrations {
+    0% {
+        left: 0px;
+    }
+    1% {
+        left: 800px;
+    }
+    40% {
+        left: 0px;
+    }
+}
+
+@keyframes forms {
+    0% {
+        right: 0px;
+    }
+    1% {
+        right: 800px;
+    }
+    40% {
+        right: 0px;
+    }
+}
+
+.content {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.illustrations {
+    width: 630px;
+    transition: .9s ease-in-out;
+    position: relative;
+    animation-name: illustrations;
+    animation-duration: 4s;
+}
+
+.illustrations:hover {
+    transform: translate(20%, 0);
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 70px;
+    position: relative;
+    animation-name: forms;
+    animation-duration: 4s;
+}
+
+.text1 {
+    font-family: Shabnam1;
+    font-size: 25px;
+}
+
+.text2 {
+    font-family: Shabnam3;
+    font-size: 13px;
+}
+
+.label {
+    font-family: Shabnam2;
+    font-size: 15px;
+    margin: 20px 8px 4px 8px;
+}
+
+.input {
+    font-family: Shabnam2;
+    font-size: 16px;
+    margin: 5px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid rgb(126, 126, 126);
+}
+
+.icon-color {
+    color: rgba(54, 51, 233, 0.767);
+}
+
+.hide-password {
+    position: absolute;
+    margin: 233px 280px 0 0;
+}
+
+.checkbox {
+    margin-bottom: 10px;
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background,
+.mat-checkbox-indeterminate .mat-checkbox-background {
+    background-color: rgba(76, 97, 216, 0.966) !important;
+}
+
+::ng-deep .mat-checkbox:not(.mat-checkbox-disabled) .mat-checkbox-ripple .mat-ripple-element {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.Remember {
+    margin: 10px 10px 10px 10px;
+    font-family: Shabnam2;
+    font-size: 13px;
+}
+
+.button {
+    margin-top: 10px;
+    font-family: Shabnam1;
+    font-size: 16px;
+    padding: 2px 0 4px 0;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: rgb(20, 28, 148);
+}
+
+.forget {
+    margin: 12px 120px 0 0;
+    font-family: Shabnam2;
+    font-size: 14px;
+    Text-Decoration: None;
+    color: black;
+}
+
+.forget:hover {
+    font-family: Shabnam1;
+}
